@@ -56,7 +56,7 @@
             seccion = seccion.replace("https://luishemar.github.io/recetas/recetasTradicionales/","").replace("/", "");
             document.getElementById('main-titulo').innerHTML += " > " + seccion;
             (async () => {
-                const response = await fetch('https://api.github.com/repos/luishemar/recetas/contents/recetasTradicionales/' + seccion);
+                const response = await fetch('https://api.github.com/repos/luishemar/recetas/contents/recetasTradicionales/' + seccion + '/');
                 const data = await response.json();
                 let htmlString = document.getElementById('main').innerHTML + '<ul class="alt" style="padding-top:0px">';
                 for (let file of data) {
