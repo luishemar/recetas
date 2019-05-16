@@ -4651,3 +4651,9 @@ input, select, textarea {
 		}
 
 	}
+    
+/* Personal */
+
+	#seccionRecetas {
+        font-size: 1.8rem;
+    }
