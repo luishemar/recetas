@@ -4656,3 +4656,7 @@ input, select, textarea {
 ul li a {
     font-size: 20.5px;
 }
+
+#elaboracion p {
+    text-align: left;
+}
