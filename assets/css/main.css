@@ -2909,7 +2909,7 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			font-size: 1.3rem;
+			font-size: 1.4rem;
 			margin-top: -0.75rem;
 		}
 
@@ -4652,10 +4652,6 @@ input, select, textarea {
 	}
     
 /* Personal */
-
-ul li {
-    font-size: 20.5px;
-}
 
 #elaboracion p {
     text-align: left;
