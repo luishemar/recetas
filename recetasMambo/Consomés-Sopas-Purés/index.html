@@ -53,7 +53,7 @@
         <script src="../../assets/js/main.js"></script>
         <script>
             let seccion = document.location.toString();
-            seccion = decode.URI(seccion.replace("https://luishemar.github.io/recetas/recetasMambo/","").replace("/", ""));
+            seccion = decodeURI(seccion.replace("https://luishemar.github.io/recetas/recetasMambo/","").replace("/", ""));
             document.getElementById('main-titulo').innerHTML += " > " + seccion;
             (async () => {
                 const response = await fetch('https://api.github.com/repos/luishemar/recetas/contents/recetasMambo/' + seccion + '/');
